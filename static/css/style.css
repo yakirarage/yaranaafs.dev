@@ -11,6 +11,19 @@
   --accent-color: #77C159;
 }
 
+::-webkit-scrollbar {
+  width: 0.2em;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent; 
+  border-radius: 5px;
+}  
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+}
+
 body {
   padding: 0;
   margin: 0;
